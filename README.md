@@ -12,7 +12,7 @@ http://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL
 * Dataset: [WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL_FIRE_POLYS_SP](https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical)
 * Query: FIRE_YEAR=2018
 * Output Format: json
-* Map Projection: EPSG:4326
+* Map Projection: [EPSG:4326](https://spatialreference.org/ref/epsg/wgs-84/)
 
 ## License
     Copyright 2019 BC Provincial Government
