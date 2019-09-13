@@ -1,12 +1,12 @@
 ## BC Geographic Warehouse Web Feature Service Demonstration
 
-## Description
+### Description
 Map of 2018 Wildfire Perimeters in British Columbia, Canada. This demonstration shows how to generate a JSON file from the BC Geographic Warehouse (BCGW) via a Web Feature Service (WFS). The json file was loaded to github by [geojson.io](http://geojson.io) and the html file was written by Rob Oostlander to reference the json file as a javascript file.
 
-## Syntax
+### Syntax
 http://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL_FIRE_POLYS_SP/ows?service=wfs&version=2.0.0&request=getfeature&typename=pub:WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL_FIRE_POLYS_SP&CQL_FILTER=FIRE_YEAR=2018&outputFormat=json&srsName=EPSG:4326
 
-## Parameters
+### Parameters
 * Service: WFS
 * Version: 2.0.0
 * Dataset: [WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL_FIRE_POLYS_SP](https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical)
@@ -14,7 +14,7 @@ http://openmaps.gov.bc.ca/geo/pub/WHSE_LAND_AND_NATURAL_RESOURCE.PROT_HISTORICAL
 * Output Format: json
 * Map Projection: [EPSG:4326](https://spatialreference.org/ref/epsg/wgs-84/)
 
-## License
+### License
     Copyright 2019 BC Provincial Government
 
     Licensed under the Apache License, Version 2.0 (the "License");
